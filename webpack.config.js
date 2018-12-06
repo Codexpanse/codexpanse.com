@@ -37,8 +37,7 @@ module.exports = (env, argv) => {
     plugins: [
       new CleanWebpackPlugin(['dist']),
       new CopyWebpackPlugin([
-        { from: 'src/images', to: 'images' },
-        { from: 'src/fonts', to: 'fonts' }
+        { from: 'src/images', to: 'images' }
       ]),
       new FaviconsWebpackPlugin({
         // The favicon app title (see https://github.com/haydenbleasel/favicons#usage)
@@ -66,7 +65,7 @@ module.exports = (env, argv) => {
           appleIcon: true,
           appleStartup: true,
           coast: true,
-          favicons: true,
+          favicons: false,
           firefox: true,
           opengraph: true,
           twitter: true,
@@ -136,18 +135,11 @@ module.exports = (env, argv) => {
           }
         },
         {
-          test: /\.(woff|woff2|eot|ttf|otf)$/,
-          use: {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'fonts/'
-            }
-          }
-        },
-        {
           test: /\.html$/,
-          loader: 'raw-loader'
+          loader: 'html-loader',
+          options: {
+            interpolate: true
+          }
         }
       ]
     }

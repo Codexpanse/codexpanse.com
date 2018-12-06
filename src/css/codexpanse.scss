@@ -1,5 +1,11 @@
+.ce-navbar {
+  .nav-link {
+    color: inherit !important;
+  }
+}
+
 h1.ce-landing-title {
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .ce-my-xl {
@@ -9,4 +15,10 @@ h1.ce-landing-title {
 
 .ce-pricing-meta {
   font-size: 1.3rem;
+}
+
+img.ce-mentor {
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 0px 14px;
+  max-height: 150px;
+  max-width: 150px;
 }

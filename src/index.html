@@ -11,150 +11,141 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand mb-0 h1 text-secondary" href="#">Codexpanse</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item font-weight-bold active">
-            <a class="nav-link" href="#">School <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Workshops</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Encyclopedia</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    ${require('./partials/navbar.html')}
 
     <main role="main" class="container pb-5">
-      <div class="row mt-5 pt-5">
-        <div class="col-6">
+      <div class="row pt-5">
+        <div class="col-12 col-lg-5 mt-5">
           <h1 class="ce-landing-title font-weight-bold">Learn to code,<br>the humane way.</h1>
           <p class="lead mt-5">
             We all have unique learning styles and preferences. To deeply understand a thing, we must engage with them all.
             Codexpanse is the environment built for this.
           </p>
           <div class="mt-4">
-            <a href="#" class="btn btn-primary btn-lg" role="button">Dive in</a>
+            <a href="https://learn.codexpanse.com" class="btn btn-primary btn-lg" role="button">Dive in</a>
           </div>
 
         </div>
-        <div class="col-6"><img class="img-fluid" alt="architecture" src="/images/architecture.gif"/></div>
+        <div class="col-12 col-lg-7 mt-5"><img class="img-fluid" alt="architecture" src="/images/art.png"/></div>
       </div>
 
       <hr class="ce-my-xl" />
 
-      <div class="row mt-5">
-        <div class="col-12 col-lg-4 mt-3">
-          <h3>Rich brain food</h3>
+      <div class="row mt-3">
+        <div class="col-12 col-lg-6 col-xl-4 mt-5 pr-lg-4">
+          <h3>Different media</h3>
           <p class="mt-3">
-            Video, text, comics, ebooks, podcasts and interactive exercises. All downloadable.
+            Learn from different angles with videos, text, comics, podcasts, ebooks, PDF cheatsheets. All downloadable!
           </p>
         </div>
-        <div class="col-12 col-lg-4 mt-3">
-          <h3>Build from day one</h3>
+
+        <div class="col-12 col-lg-6 col-xl-4 mt-5 pr-lg-4">
+          <h3>Projects and products</h3>
           <p class="mt-3">
-            Create and launch real products with your mentor and peers.
+            No "Hello, world!" 🙄 Build useful apps, something you can actually show people and say "I made this!".
           </p>
         </div>
-        <div class="col-12 col-lg-4 mt-3">
+
+        <div class="col-12 col-lg-6 col-xl-4 mt-5 pr-lg-4">
+          <h3>Interactive exercises</h3>
+          <p class="mt-3">
+            Code in browser and on your computer. Never go too far away from building.
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 mt-5 pr-lg-4">
+          <h3>Teachers answer</h3>
+          <p class="mt-3">
+            Teachers and your peers answer your questions every day in community forums.
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 mt-5 pr-lg-4">
+          <h3>Notes and cheatsheets</h3>
+          <p class="mt-3">
+            Attach personal notes to lessons. Download lecture notes and printable cheatsheets made by teachers.
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 mt-5 pr-lg-4">
+          <h3>Power of analogies</h3>
+          <p class="mt-3">
+            We take advantage of powerful analogies to explain difficult ideas and tackle complexity.
+          </p>
+        </div>
+
+      </div> <!-- row -->
+
+      <div class="row mt-5 pt-5">
+        <div class="col-12">
+          <h2 class="">For Deep Explorers:</h2>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 pr-lg-5">
           <h3>Personal mentorship</h3>
           <p class="mt-3">
-            Never feel lost. Your mentor and career counsellor is here.
+            You'll be assigned a personal mentor, a professional software developer with years of experience. You'll communicate regularly via Skype and chat. Your mentor help you solve problems, review your code and assign personal projects.
+          </p>
+          <p>
+            <ul>
+              <li>Goal-setting call</li>
+              <li>Personal project assignments</li>
+              <li>Weekly personal calls</li>
+              <li>Code review in projects</li>
+              <li>Monthly group calls</li>
+              <li>Bi-weekly office hours chats</li>
+            </ul>
           </p>
         </div>
-      </div>
 
-
-      <div class="row mt-4 pt-5">
-        <div class="col-12 col-lg-4 col-xl-5  mt-4">
-          <h3>Fees</h3>
+        <div class="col-12 col-lg-6 mt-5 pr-lg-5">
+          <h3>Career and interview preparation</h3>
           <p class="mt-3">
-            We will always release free content and do free offline workshops in cities across Europe. In-depth training, personal mentorship and a complete set of courses requires a monthly fee.
+            Your mentor will also assist you with job hunting and help prepare for interviews.
           </p>
-        </div>
-        <div class="col-12 col-lg-8 col-xl-7">
-          <div class="row">
-            <div class="col-12 col-md-6 mt-4">
-              <div class="card">
-                <div class="card-header bg-secondary p-4">
-                  <h4 class="text-white">Astronaut</h4>
-                  <p class="mt-4 mb-2 d-flex flex-row align-items-end">
-                    <span class="d-flex flex-row align-items-center text-white font-weight-bold">
-                      <span class="font-weight-light h5 mr-1">$</span> <span class="h1 mb-0">0</span>
-                    </span>
-                    <span class="h5 text-white font-weight-light ml-2">/ month</span>
-                  </p>
-                </div>
-                <div class="card-body pt-4 pb-4">
-                  <ul class="list-unstyled mt-3">
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Basic courses</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Level 1-2 workshops</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Community forums</li>
-                  </ul>
-
-                  <a href="#" class="btn btn-secondary mt-5 btn-block">Start</a>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <div class="card">
-                <div class="card-header bg-secondary p-4">
-                  <h4 class="text-white">Deep explorer</h4>
-                  <p class="mt-4 mb-2 d-flex flex-row align-items-end">
-                    <span class="d-flex flex-row align-items-center text-white font-weight-bold">
-                      <span class="font-weight-light h5 mr-1">$</span> <span class="h1 mb-0">199</span>
-                    </span>
-                    <span class="h5 text-white font-weight-light ml-2">/ month</span>
-                  </p>
-                </div>
-                <div class="card-body pt-4 pb-4">
-                  <ul class="list-unstyled mt-3">
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Personal mentorship</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Personal projects</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>All courses</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>All workshops</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Downloadable media</li>
-                    <li class="mb-3"><i class="far fa-check-circle text-secondary mr-2"></i>Career counselling</li>
-                  </ul>
-
-                  <a href="#" class="btn btn-secondary mt-5 btn-block">Start</a>
-                  <p class="text-center mt-3">
-                    or
-                    <a href="features">learn more</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <p>
+            <ul>
+              <li>A career counselling session</li>
+              <li>Bi-monthly mock job interviews</li>
+              <li>Your resume sent to our partners</li>
+            </ul>
+          </p>
+          <p></p>
         </div>
       </div>
+
+      <hr class="ce-my-xl" />
+
+      <div class="row mt-5 pt-3">
+        <div class="col-12"><h2 class="text-center">Mentors</h2></div>
+
+        <div class="col-12 col-md-6 mt-5 text-center px-md-5">
+          <img class="img-fluid rounded-circle ce-mentor mb-3" alt="" src="/images/faces/rakhim_d.jpg"/>
+          <h4>Rakhim Davletkaliyev</h4>
+          <p>Software engineer, CEO at Codexpanse. Python, JS, Clojure/ClojureScript. BSc., Carleton University</p>
+        </div>
+        <div class="col-12 col-md-6 mt-5 text-center px-md-5">
+          <img class="img-fluid rounded-circle ce-mentor mb-3" alt="" src="/images/faces/johannes_s.jpg"/>
+          <h4>Johannes Seikowsky</h4>
+          <p>CTO at wordgates.com. Python, web development. B.A., University of Oxford.</p>
+        </div>
+        <div class="col-12 col-md-6 mt-5 text-center px-md-5">
+          <img class="img-fluid rounded-circle ce-mentor mb-3" alt="" src="/images/faces/shmavon_g.jpg"/>
+          <h4>Shmavon Gazanchyan</h4>
+          <p>Manager at Deloitte Digital (Ireland). Web development. MBus, Lancaster University.</p>
+        </div>
+        <div class="col-12 col-md-6 mt-5 text-center px-md-5">
+          <img class="img-fluid rounded-circle ce-mentor mb-3" alt="" src="/images/faces/farzad_yz.jpg"/>
+          <h4>Farzad Y.Z.</h4>
+          <p>Software engineer. Javascript, Elm, ReasonML, React, Redux, GraphQL, Open source enthusiast. B.E., Sharif UoT.</p>
+        </div>
+      </div>
+
+      <hr class="ce-my-xl" />
+
+      ${require('./partials/fees.html')}
     </main>
 
-    <footer class="border-top container-fluid">
-      <div class="row py-5">
-        <div class="col-12 text-center">
-          <p>Codexpanse 2018</p>
-          <p class="h3">
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitch"></i>
-            <i class="fab fa-medium"></i>
-          </p>
-        </div>
-      </div>
-    </footer>
+    ${require('./partials/footer.html')}
 
     <!-- JS files output here on build -->
   </body>
