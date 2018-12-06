@@ -23,7 +23,9 @@ import 'bootstrap/js/dist/collapse';
 // import '@fortawesome/fontawesome-free/js/all.js';
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium } from '@fortawesome/free-brands-svg-icons';
-library.add(faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium);
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
+
+library.add( faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium, faCheckCircle );
 dom.watch();
 
 if (process.env.NODE_ENV === 'development') {
