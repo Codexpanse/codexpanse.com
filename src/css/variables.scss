@@ -78,7 +78,8 @@ $badge-padding-x:                   1.2em !default;
 
 // Fonts
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Nunito:400,700" !default;
+// $web-font-path: "https://fonts.googleapis.com/css?family=Nunito:400,700" !default;
+$web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,700" !default;
 @import url($web-font-path);
-$font-family-sans-serif:  Nunito, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif: Nunito, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
