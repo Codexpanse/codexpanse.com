@@ -63,9 +63,9 @@ module.exports = (env, argv) => {
         icons: {
           android: true,
           appleIcon: true,
-          appleStartup: true,
+          appleStartup: false,
           coast: true,
-          favicons: false,
+          favicons: "mask",
           firefox: true,
           opengraph: true,
           twitter: true,

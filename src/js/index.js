@@ -22,11 +22,11 @@ import 'bootstrap/js/dist/collapse';
 
 // import '@fortawesome/fontawesome-free/js/all.js';
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium, faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
-library.add( faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium, faCheckCircle, faGlobe, faGithub, faLinkedin );
+library.add( faTwitter, faTwitch, faFacebookSquare, faYoutube, faMedium, faCheckCircle, faGlobe, faGithub, faLinkedin, faInstagram );
 dom.watch();
 
 if (process.env.NODE_ENV === 'development') {
